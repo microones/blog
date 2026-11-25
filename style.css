@@ -1,0 +1,52 @@
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 1.2em;
+    font-family: Georgia, serif;
+    line-height: 1.7;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive;
+    font-size: 2.5em;
+    color: #cc00cc;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 0px #ffaaff;
+}
+
+h2 {
+    border-left: 4px solid #cc00cc;
+    padding-left: 0.5em;
+}
+
+h2 a[href^="#"] {
+    color: #8a8a8a !important;
+    margin-right: 0.3em;
+    text-decoration: none;
+}
+
+figure {
+    margin: 1.5em 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.85em;
+    color: #555;
+    text-align: center;
+    margin-top: 0.4em;
+}
+
+.tick {
+    color: green;
+}
+
+.sagnat {
+    padding-left: 2em;
+}
