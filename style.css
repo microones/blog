@@ -50,3 +50,25 @@ figcaption {
 .sagnat {
     padding-left: 2em;
 }
+
+.entrades {
+    list-style: none;
+    padding: 0;
+}
+
+.entrades li {
+    border-left: 4px solid #cc00cc;
+    padding-left: 0.6em;
+    margin: 1.2em 0;
+}
+
+.entrades a {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.entrades .data {
+    display: block;
+    color: #8a8a8a;
+    font-size: 0.9em;
+}
